@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>PublishedBooks</members>
+        <members>BooksController</members>
+        <members>Test_BooksController</members>
+        <members>Test_PublishedBooksQueueable</members>
+        <members>TestHttpCalloutMock</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>MostPublishedBooks__e</members>
+        <members>VariousSettings__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>publischedBooks</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>64.0</version>
+</Package>

@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "package": "BillieUnlockedPackage",
+      "versionDescription": "Billie unlocked package"
+    }
+  ],
+  "name": "billie",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "64.0",
+  "packageAliases": {
+    "BillieUnlockedPackage": "0HogL0000000NcXSAU",
+    "BillieUnlockedPackage@0.1.0-1": "04tgL0000004XobQAE",
+    "BillieUnlockedPackage@0.1.0-2": "04tgL0000004XyHQAU"
+  }
+}

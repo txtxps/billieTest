@@ -1,0 +1,48 @@
+<template>
+    <lightning-card title="Most Published Books">
+        <div slot="actions">
+            <lightning-button
+                label="Get Books"
+                icon-name="utility:refresh"
+                onclick={handleGetBooks}
+                disabled={isLoading}>
+            </lightning-button>
+        </div>
+        <table class="slds-table slds-table_cell-buffer slds-table_col-bordered slds-table_bordered">
+            <thead>
+            <tr>
+                <th>
+                    <div title="Title">Title</div>
+                </th>
+                <th>
+                    <div title="Author">Author</div>
+                </th>
+                <th>
+                    <div title="Edition">Edition</div>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+                <template for:each={books} for:item="book">
+                    <tr key={book.Title}>
+                        <td>
+                            <div title={book.Title}>
+                                {book.Title}
+                            </div>
+                        </td>
+                        <td>
+                            <div title={book.Author}>
+                                {book.Author}
+                            </div>
+                        </td>
+                        <td>
+                            <div title={book.Edition}>
+                                {book.Edition}
+                            </div>
+                        </td>
+                    </tr>
+                </template>
+            </tbody>
+        </table>
+    </lightning-card>
+</template>
